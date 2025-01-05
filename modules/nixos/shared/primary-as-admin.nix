@@ -2,15 +2,12 @@
 { flake, pkgs, lib, ... }:
 
 {
-  # Login via SSH with mmy SSH key
+  # Login via SSH with my SSH key
   users.users =
     let
       me = flake.config.me;
       myKeys = [
         me.sshKey
-        # vixen host key (see distributed-build.nix)
-        # TODO: This should be added to 'pureintent' only
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIImY2zbqe3HlPF62gSgUrJI7xY3n3NEBwRi/MkDrVjp5"
       ];
     in
     {

@@ -46,7 +46,7 @@ in
   wayland.windowManager.hyprland.settings = {
     "$mainMod" = "SUPER";
 
-    source = "~/.hyprland-local.conf";
+    # source = "~/.hyprland-local.conf";
 
     bind = [
       "$mainMod, Q, exec, ghostty"

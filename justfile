@@ -9,7 +9,7 @@ local:
 # Run this before `nix run` to build the current configuration
 [group('main')]
 nom:
-    , nom build --no-link .#nixosConfigurations.vixen.config.system.build.toplevel
+    , nom build --no-link .#nixosConfigurations.nixos.config.system.build.toplevel
 
 # Deploy to Beelink
 [group('deploy')]
