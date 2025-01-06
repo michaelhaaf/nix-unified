@@ -26,9 +26,6 @@
     omnix.url = "github:juspay/omnix";
     hyprland.url = "github:hyprwm/Hyprland/v0.46.2";
 
-    # Neovim
-    nixvim.url = "github:nix-community/nixvim";
-    nixvim.inputs.nixpkgs.follows = "nixpkgs";
     # Emacs
     nix-doom-emacs-unstraightened.url = "github:marienz/nix-doom-emacs-unstraightened";
     nix-doom-emacs-unstraightened.inputs.nixpkgs.follows = "nixpkgs";
