@@ -37,5 +37,9 @@ in
     hyprlock
 
     wl-clipboard
+
+    networkmanagerapplet
+
+    virt-manager
   ];
 }
